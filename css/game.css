@@ -31,7 +31,7 @@ body {
 #instruction {
     margin-bottom: 30px;
     font-size: 18px;
-    color: #555;
+    color: red;
 }
 
 /* Briefcase container */
@@ -141,7 +141,7 @@ body {
 
 /* Value list items */
 .value-list li {
-    font-size: 14px;
+    font-size: 20px;
     color: #333;
     margin: 5px 10px;
     padding: 5px;

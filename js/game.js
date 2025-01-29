@@ -1,6 +1,7 @@
 // List of values that can be in the briefcases
 const values = [-10, -5, -1, +1, +2, +5, +10, +15, +20, +25, +40, +45, +50];
 
+
 // Shuffle function
 function shuffleArray(arr) {
   for (let i = arr.length - 1; i > 0; i--) {
