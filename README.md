@@ -6,7 +6,7 @@ Users are able to play the game with these values: -10, -5, -1, +1, +2, +5, +10,
 My grandmother has been addicted to the show Deal or No Deal. Everytime she comes over to our house, the TV with this show will be turned on, and she will watch it to her heart's content. My whole family watches with her, and that's when my dad gave me the idea to make our own spinoff version of the game. 
 
 # How to play
-1. Access it through this link: [Deal Or No Deal](https://deal-or-no-deal-two.vercel.app/)
+1. Access it through this link: [Deal Or No Deal]()
 2. Run it on your localhost with this repository
 
 ## Instructions of the game (Player's POV)
