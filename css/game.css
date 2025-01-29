@@ -23,7 +23,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 50%;
+    width: 70%;
     position: relative;
 }
 
@@ -45,14 +45,14 @@ body {
 
 /* Briefcase styling */
 .briefcase {
-    width: 60px;
-    height: 60px;
+    width: 160px;  
+    height: 160px;  
     background-color: #f1f1f1;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 50px; 
     font-weight: bold;
     color: #333;
     cursor: pointer;
@@ -61,10 +61,11 @@ body {
     border: 2px solid #555;
 }
 
+
 /* Hide value initially */
 .briefcase::before {
     content: "Briefcase";
-    font-size: 12px;
+    font-size: 20px;
     color: #888;
     text-align: center;
     position: absolute;
@@ -81,13 +82,17 @@ body {
 
 /* Selected briefcase */
 .selected-briefcase {
+    width: 160px;  
+    height: 160px; 
     background-color: yellow !important;
+    font-size: 40px;  
+    font-weight: bold;  
 }
-
 /* Revealed briefcase */
 .briefcase.revealed::before {
     content: attr(data-value);
     color: #333;
+    font-size: 50px;  
 }
 
 /* Disabled briefcase after revealing */
@@ -101,14 +106,14 @@ body {
     position: fixed;
     top: 20px;
     right: 20px;
-    width: 80px;
-    height: 80px;
+    width: 160px;
+    height: 160px;
     background-color: #f1f1f1;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     color: #333;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
