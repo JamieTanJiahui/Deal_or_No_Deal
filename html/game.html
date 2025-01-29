@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deal Or No Deal - Game</title>
+  <link rel="stylesheet" href="../css/game.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Deal Or No Deal - Game</h1>
+    <div id="instruction" class="instruction">Pick a briefcase!</div>
+    <div id="briefcases" class="briefcases-container"></div>
+  </div>
+
+  <!-- Sidebar displaying all briefcase values -->
+  <div class="sidebar">
+    <h2>All Briefcase Values</h2>
+    <ul id="valueList" class="value-list">
+      <!-- List will be populated dynamically -->
+    </ul>
+  </div>
+
+  <div id="selectedBriefcaseSection" class="selected-briefcase-section">
+  </div>
+
+  <div id="dealModal" class="modal">
+    <p>Deal or No Deal?</p>
+    <button id="deal">Deal</button>
+    <button id="noDeal">No Deal</button>
+  </div>
+  
+  <div id="swapModal" class="modal">
+    <p>Do you want to swap your briefcase?</p>
+    <button id="swapYes">Yes</button>
+    <button id="swapNo">No</button>
+  </div>
+
+  <button id="playAgain" style="display: none;">Play Again</button>
+
+
+  <script src="../js/game.js"></script>
+</body>
+</html>
