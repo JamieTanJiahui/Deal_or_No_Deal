@@ -175,37 +175,40 @@ body {
     cursor: pointer;
   }
   
-/* Play Again */
 /* Play Again Button */
 #playAgain {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 1.2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    font-size: 1.5em;
     font-weight: bold;
     background-color: #FF5722; /* A bright, attention-grabbing color */
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     display: none; /* Initially hidden */
     transition: background-color 0.3s, transform 0.2s ease-in-out;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensure it appears above other elements */
 }
 
 /* Hover effect */
 #playAgain:hover {
-    background-color: #FF3D00; /* Darker shade on hover */
-    transform: scale(1.05); /* Slight scale effect */
+    background-color: #FF3D00;
+    transform: translate(-50%, -50%) scale(1.1);
 }
 
-/* Active state for click */
+/* Active state */
 #playAgain:active {
-    background-color: #E64A19; /* Even darker shade when clicked */
-    transform: scale(0.98); /* Slight shrink on click */
+    background-color: #E64A19;
+    transform: translate(-50%, -50%) scale(0.98);
 }
 
 /* Focus state */
 #playAgain:focus {
-    outline: none; /* Remove default outline */
-    box-shadow: 0 0 0 3px rgba(255, 87, 34, 0.6); /* Add custom outline effect */
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 87, 34, 0.6);
 }
